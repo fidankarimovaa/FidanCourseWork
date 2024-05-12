@@ -1,0 +1,197 @@
+
+
+*{
+   margin: 0; padding: 0;
+   box-sizing: border-box;
+   outline: none; border: none;
+   text-decoration: none;
+}
+
+
+
+html{
+   font-size: 62.5%;
+   overflow-x: hidden;
+   scroll-padding-top: 2rem;
+}
+
+body{
+   background-color:#d2fffe;
+}
+
+section{
+   padding: 3rem 2rem;
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.btn{
+   display: inline-block;
+   cursor: pointer;
+   padding: 1rem 3rem;
+   border:.1rem solid rgba(0, 0, 0, 0.3);
+   font-size: 1.8rem;
+   color: #1e023d;
+   text-align: center;
+   text-transform: capitalize;
+   transition: .2s linear;
+   margin-top: 1rem;
+   background-color:#d2fffe;
+}
+
+.btn:hover{
+   background-color: #1e023d;
+   color: #d2fffe;
+}
+
+.header{
+   padding-bottom: 0;
+}
+
+.header .flex{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 1.5rem;
+}
+
+.header .flex .logo{
+   color: #1e023d;
+   font-size: 2.5rem;
+}
+
+.header .flex .btn{
+   margin-top: 0;
+}
+
+.header .flex .fa-bars{
+   font-size: 3rem;
+   cursor: pointer;
+   color: #1e023d;
+   display: none;
+}
+
+.header .navbar{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   gap: 1.5rem;
+   margin-top: 2rem;
+   background-color: #1e023d;
+   padding: .5rem;
+   border-radius: .5rem;
+}
+
+.header .navbar a{
+   font-size: 1.8rem;
+   color: #d2fffe;
+   padding: 1rem 3rem;
+   border-radius: .5rem;
+}
+
+.header .navbar a:hover{
+   background-color:#d2fffe;
+   color:  #1e023d;
+}
+
+.reservation form{
+   border:.1rem solid rgba(0, 0, 0, 0.3);
+   padding: 2rem;
+}
+
+.reservation form .flex{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 1.5rem;
+}
+
+.reservation form h3{
+   background-color: #1e023d;
+   color:#d2fffe;
+   font-size: 2.5rem;
+   margin-bottom: 2rem;
+   border-radius: .5rem;
+   padding: 1.2rem;
+   text-align: center;
+   text-transform: capitalize;
+}
+
+.reservation form .flex .box{
+   flex: 1 1 40rem;
+}
+
+.reservation form .flex .box p{
+   font-size: 1.8rem;
+   color: #1e023d;
+}
+
+.reservation form .flex .box .input{
+   padding: 1rem 0;
+   margin: 1rem 0;
+   border-bottom: .1rem solid rgba(0, 0, 0, 0.3);
+   background: #d2fffe;
+   color: #080303;;
+   font-size: 1.8rem;
+   width: 100%;
+}
+
+
+.packages .heading{
+    font-size:2rem;
+    padding-bottom: 1rem;
+  }
+
+.packages .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:9rem;
+  }
+
+  .packages .box-container .box{
+    border-radius: .5rem;
+    overflow: hidden;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+  }
+  
+  .packages .box-container .box img{
+    height: 25rem;
+    width:100%;
+    object-fit: cover;
+  }
+  
+  .packages .box-container .box .content{
+    padding:2rem;
+  }
+  
+  .packages .box-container .box .content h3{
+    font-size:2rem;
+    color:#333;
+  }
+  
+  .packages .box-container .box .content h3 i{
+    color:#1e023d;
+  }
+  
+  .packages .box-container .box .content p{
+    font-size:1.7rem;
+    color:#666;
+    padding:1rem 0;
+  }
+  
+  .packages .box-container .box .content .stars i{
+    font-size:1.7rem;
+    color:#1e023d;
+  }
+  
+  .packages .box-container .box .content .price{
+    font-size: 2rem;
+    color:#333;
+    padding-top: 1rem;
+  }
+  
+  .packages .box-container .box .content .price span{
+    color:#666;
+    font-size: 1.5rem;
+    text-decoration: line-through;
+  }
+  

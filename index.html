@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header">
+
+        <div class="flex">
+           <a href="#home" class="logo">Fidan's Hotel</a>
+           <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+     
+        <nav class="navbar">
+           <a href="./home.html">home</a>
+           <a href="#about">about</a>
+           <a href="./index.html">reservation</a>
+           <a href="#gallery">gallery</a>
+           <a href="#contact">contact</a>
+           <a href="#reviews">reviews</a>
+        </nav>
+     
+     </section>
+     
+<section class="reservation" id="reservation">
+
+    <form action="" method="post">
+       <h3>make a reservation</h3>
+       <div class="flex">
+          <div class="box">
+             <p><span>*</span> check in <span>*</span></p>
+             <input type="date" name="check_in" class="input" required>
+          </div>
+          <div class="box">
+             <p><span>*</span> check out <span>*</span></p>
+             <input type="date" name="check_out" class="input" required>
+          </div>
+          <div class="box">
+             <p><span>*</span> adults <span>*</span></p>
+             <select name="adults" class="input" required>
+                <option value="1">1 adult</option>
+                <option value="2">2 adults</option>
+                <option value="3">3 adults</option>
+                <option value="4">4 adults</option>
+                <option value="5">5 adults</option>
+                <option value="6">6 adults</option>
+             </select>
+          </div>
+          <div class="box">
+             <p><span>*</span> children <span>*</span></p>
+             <select name="children" class="input" required>
+                <option value="-">0 child</option>
+                <option value="1">1 child</option>
+                <option value="2">2 children</option>
+                <option value="3">3 children</option>
+                <option value="4">4 children</option>
+                <option value="5">5 children</option>
+                <option value="6">6 children</option>
+             </select>
+          </div>
+          <div class="box">
+             <p><span>*</span> rooms <span>*</span></p>
+             <select name="rooms" class="input" required>
+                <option value="1">1 room</option>
+                <option value="2">2 rooms</option>
+                <option value="3">3 rooms</option>
+                <option value="4">4 rooms</option>
+                <option value="5">5 rooms</option>
+                <option value="6">6 rooms</option>
+             </select>
+          </div>
+       </div>
+       <input type="submit" value="submit" name="check" class="btn">
+    </form>
+ 
+ </section>
+
+
+    
+</body>
+</html>
