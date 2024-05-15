@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./home.js">
+    <script>
+        function sendMessage() {
+            // Redirect to message.html
+            window.location.href = './message.html';
+        }
+    </script>
 </head>
 <body>
     <section class="header">
@@ -27,7 +34,7 @@
      
 <section class="reservation" id="reservation">
 
-    <form action="" method="post">
+    <form  id="reservationForm"  action="" method="post">
         <h3>Make a Reservation</h3>
         <div class="flex">
             <div class="box">
@@ -89,11 +96,11 @@
                 </select>
             </div>
         </div>
-        <input type="submit" value="Submit" name="check" class="btn">
+        <button onclick="sendMessage()">Show Message Page</button>
+
     </form>
  </section>
 
 
-    
 </body>
 </html>
