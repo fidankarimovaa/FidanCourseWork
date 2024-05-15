@@ -28,54 +28,69 @@
 <section class="reservation" id="reservation">
 
     <form action="" method="post">
-       <h3>make a reservation</h3>
-       <div class="flex">
-          <div class="box">
-             <p><span>*</span> check in <span>*</span></p>
-             <input type="date" name="check_in" class="input" required>
-          </div>
-          <div class="box">
-             <p><span>*</span> check out <span>*</span></p>
-             <input type="date" name="check_out" class="input" required>
-          </div>
-          <div class="box">
-             <p><span>*</span> adults <span>*</span></p>
-             <select name="adults" class="input" required>
-                <option value="1">1 adult</option>
-                <option value="2">2 adults</option>
-                <option value="3">3 adults</option>
-                <option value="4">4 adults</option>
-                <option value="5">5 adults</option>
-                <option value="6">6 adults</option>
-             </select>
-          </div>
-          <div class="box">
-             <p><span>*</span> children <span>*</span></p>
-             <select name="children" class="input" required>
-                <option value="-">0 child</option>
-                <option value="1">1 child</option>
-                <option value="2">2 children</option>
-                <option value="3">3 children</option>
-                <option value="4">4 children</option>
-                <option value="5">5 children</option>
-                <option value="6">6 children</option>
-             </select>
-          </div>
-          <div class="box">
-             <p><span>*</span> rooms <span>*</span></p>
-             <select name="rooms" class="input" required>
-                <option value="1">1 room</option>
-                <option value="2">2 rooms</option>
-                <option value="3">3 rooms</option>
-                <option value="4">4 rooms</option>
-                <option value="5">5 rooms</option>
-                <option value="6">6 rooms</option>
-             </select>
-          </div>
-       </div>
-       <input type="submit" value="submit" name="check" class="btn">
+        <h3>Make a Reservation</h3>
+        <div class="flex">
+            <div class="box">
+                <p><span>*</span> Name <span>*</span></p>
+                <input type="text" name="name" class="input" required>
+            </div>
+            <div class="box">
+                <p><span>*</span> Surname <span>*</span></p>
+                <input type="text" name="surname" class="input" required>
+            </div>
+            <div class="box">
+                <p><span>*</span> Phone Number <span>*</span></p>
+                <input type="tel" name="phone_number" class="input" required>
+            </div>
+            <div class="box">
+                <p><span>*</span> Physical ID <span>*</span></p>
+                <input type="text" name="physical_id" class="input" required>
+            </div>
+            <div class="box">
+                <p><span>*</span> Check-in Date <span>*</span></p>
+                <input type="date" name="check_in" class="input" required>
+            </div>
+            <div class="box">
+                <p><span>*</span> Check-out Date <span>*</span></p>
+                <input type="date" name="check_out" class="input" required>
+            </div>
+            <div class="box">
+                <p><span>*</span> Adults <span>*</span></p>
+                <select name="adults" class="input" required>
+                    <option value="1">1 adult</option>
+                    <option value="2">2 adults</option>
+                    <option value="3">3 adults</option>
+                    <option value="4">4 adults</option>
+                    <option value="5">5 adults</option>
+                    <option value="6">6 adults</option>
+                </select>
+            </div>
+            <div class="box">
+                <p><span>*</span> Children <span>*</span></p>
+                <select name="children" class="input" required>
+                    <option value="-">0 child</option>
+                    <option value="1">1 child</option>
+                    <option value="2">2 children</option>
+                    <option value="3">3 children</option>
+                    <option value="4">4 children</option>
+                    <option value="5">5 children</option>
+                    <option value="6">6 children</option>
+                </select>
+            </div>
+            <div class="box">
+                <p><span>*</span> Rooms <span>*</span></p>
+                <select name="rooms" class="input" required>
+                    <option value="1">1 room</option>
+                    <option value="2">2 rooms</option>
+                    <option value="3">3 rooms</option>
+                    <option value="4">4 rooms</option>
+                    <option value="5">5 rooms</option>
+                    <option value="6">6 rooms</option>
+                </select>
+            </div>
+        </div>
+        <input type="submit" value="Submit" name="check" class="btn">
     </form>
- 
  </section>
 
 
