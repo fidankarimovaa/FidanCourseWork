@@ -6,14 +6,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./home.js">
-    <script>
-        function sendMessage() {
-            // Redirect to message.html
-            window.location.href = './message.html';
-        }
-    </script>
+  
 </head>
 <body>
+   
     <section class="header">
 
         <div class="flex">
@@ -39,7 +35,7 @@
         <div class="flex">
             <div class="box">
                 <p><span>*</span> Name <span>*</span></p>
-                <input type="text" name="name" class="input" required>
+                <input type="text" name="name" class="input"required >
             </div>
             <div class="box">
                 <p><span>*</span> Surname <span>*</span></p>
@@ -50,12 +46,12 @@
                 <input type="tel" name="phone_number" class="input" required>
             </div>
             <div class="box">
-                <p><span>*</span> Physical ID <span>*</span></p>
-                <input type="text" name="physical_id" class="input" required>
+                <p><span>*</span> Physical ID <span>*</span></p >
+                <input type="text" name="physical_id" class="input" required >
             </div>
             <div class="box">
                 <p><span>*</span> Check-in Date <span>*</span></p>
-                <input type="date" name="check_in" class="input" required>
+                <input type="date" name="check_in" class="input"required >
             </div>
             <div class="box">
                 <p><span>*</span> Check-out Date <span>*</span></p>
@@ -63,7 +59,7 @@
             </div>
             <div class="box">
                 <p><span>*</span> Adults <span>*</span></p>
-                <select name="adults" class="input" required>
+                <select name="adults" class="input" >
                     <option value="1">1 adult</option>
                     <option value="2">2 adults</option>
                     <option value="3">3 adults</option>
@@ -74,7 +70,7 @@
             </div>
             <div class="box">
                 <p><span>*</span> Children <span>*</span></p>
-                <select name="children" class="input" required>
+                <select name="children" class="input" >
                     <option value="-">0 child</option>
                     <option value="1">1 child</option>
                     <option value="2">2 children</option>
@@ -86,7 +82,7 @@
             </div>
             <div class="box">
                 <p><span>*</span> Rooms <span>*</span></p>
-                <select name="rooms" class="input" required>
+                <select name="rooms" class="input" >
                     <option value="1">1 room</option>
                     <option value="2">2 rooms</option>
                     <option value="3">3 rooms</option>
@@ -96,11 +92,11 @@
                 </select>
             </div>
         </div>
-        <button onclick="sendMessage()">Show Message Page</button>
-
+       
     </form>
+    <button id="redirectButton" >Submit</button>
  </section>
-
+<script src="./home.js"></script>
 
 </body>
 </html>
